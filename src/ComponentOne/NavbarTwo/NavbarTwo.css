@@ -1,0 +1,30 @@
+.btn2{
+    background-color: rgb(117, 117, 117);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn2:hover{
+    background-color: white;
+    color: rgb(117, 117, 117);
+    font-size: 17px;
+    font-weight: bold;
+}
+.navbarimage1{
+    width: 50px;
+}
+.navbertext{
+    color: rgb(54,243,210);
+    font-size: 20px;
+
+}
+@media(max-width: 480px){
+    .navbarimage1{
+        width: 30px;
+    }
+    .navbertext{
+        color: rgb(54,243,210);
+        font-size: 14px;
+    
+    }
+}

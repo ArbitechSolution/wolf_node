@@ -1,0 +1,12 @@
+.navbarimage {
+  width: 120px;
+}
+#navitem {
+  color: white;
+  font-size: 17px;
+}
+#navitem:hover {
+  color: rgb(117, 117, 117);
+  /* border-bottom: #ee0b0b solid 0.2px; */
+  /* font-size: 20px; */
+}
