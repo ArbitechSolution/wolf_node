@@ -1,0 +1,36 @@
+.inputid{
+    color:  #112c70;
+}
+.presaleh2{
+    color: #083199;
+        font-size: 52px;
+        font-weight: bold;
+}
+.btn3{
+    background-color: #112c70;
+    color: white;
+    Font-size: 22px;
+    border-radius: 50px;
+}
+.btn3:hover{
+    background-color: white;
+    color: #112c70;
+    Font-size: 22px;
+    border-radius: 50px;
+}
+.box{
+    background-color: #112c70;
+    padding: 5px;
+    border-radius: 30px;
+}
+#presalespan{
+    color: white;
+    font-size: 18px;
+}
+@media(max-width: 480px){
+    .presaleh2{
+        color: #083199;
+            font-size: 32px;
+            font-weight: bold;
+    }
+}

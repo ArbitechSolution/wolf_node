@@ -1,0 +1,122 @@
+.colbox{
+    background-color: #21283b;
+    padding: 8px;
+    border-radius: 7px;
+}
+#reacticon{
+    /* background: rgb(2,0,36); */
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #009FFF, #ec2F4B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#009FFF , #ec2F4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+.deppp{
+    font-size: 15px;
+    /* line-height: 0; */
+    color: white;
+    /* text-align:center; */
+    /* border: 2px solid red; */
+}  
+.deppp1{
+    line-height: 0.7
+}
+.btn-outline{
+    color: white;
+    border: 1px solid #b709d6;
+    font-size: 10px
+}
+.btn-outline:hover{
+    color: white;
+    border: 1px solid #b709d6
+}
+.fa-network-wired{
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffff1f), to(#fc6501));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 34px;
+
+}
+.fa-usd-square{
+    background: -webkit-gradient(linear, left top, left bottom, from(#FDFC47), to(#0bff2b));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 34px;
+}
+.btnBUY{
+    color: white;
+    border: 1px solid #fc6501;
+}
+.btnBUY:hover{
+    color: #fc6501;
+    border: 1px solid #fc6501;
+    background-color: white;
+}
+.btnBUY1{
+    color: white;
+    border: 1px solid #b709d6;
+}
+.btnBUY1:hover{
+    color: #b709d6;
+    border: 1px solid #b709d6;
+    background-color: white;
+}
+.colboxxes{
+    background-color: #21283b;
+    padding: 4px;
+    border-radius: 7px;
+    
+}
+.fa-info-square{
+background: -webkit-gradient(linear, left top, left bottom, from(#76c6ee), to(#003d92));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 24px;
+}
+#depptext1{
+color: white;
+font-size: 14px;
+text-align: left;
+/* border: 2px solid red; */
+/* margin-bottom: 10px; */
+}
+.colboxes1{
+    background-color: #21283b;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.dep{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+@media(max-width: 770px){
+    #depptext1{
+        color: white;
+        font-size: 20px;
+        text-align: left;
+        /* border: 2px solid red; */
+        /* margin-bottom: 10px; */
+        }  
+        .fa-info-square{
+            background: -webkit-gradient(linear, left top, left bottom, from(#76c6ee), to(#003d92));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 28px;
+            }
+}
+@media(max-width: 480px){
+    #depptext1{
+        color: white;
+        font-size: 14px;
+        text-align: left;
+        /* border: 2px solid red; */
+        /* margin-bottom: 10px; */
+        }  
+        .fa-info-square{
+            background: -webkit-gradient(linear, left top, left bottom, from(#76c6ee), to(#003d92));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+            }
+}
