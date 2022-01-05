@@ -5,8 +5,8 @@ function Depp() {
   return (
     <div className="fluid-container">
       <div className="container mt-3">
-        <div className="row d-flex justify-content-around">
-          <div className="col-lg-3 col-11 colbox me-md-3 mb-3">
+        <div className="row depprow">
+          <div className="col-lg-4 col-11 colbox  mb-3" >
             <div className="row d-flex align-items-center">
               <div className="col-2">
                 <BsMenuButtonWide size={24} id="reacticon" />
@@ -28,9 +28,9 @@ function Depp() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-11 colbox me-md-3 mb-3">
+          <div className="col-lg-3 col-11 colbox  mb-3">
             <div className="row d-flex align-items-center">
-              <div className="col-2 d-flex align-items-center">
+              <div className="col-2">
                 <i class="fas fa-network-wired fs-4"></i>
               </div>
               <div className="col-4 mt-2 text-start">
@@ -45,9 +45,9 @@ function Depp() {
             </div>
           </div>
 
-          <div className="col-lg-3 col-11 colbox me-md-3 mb-3">
+          <div className="col-lg-3 col-11 colbox  mb-3">
             <div className="row d-flex align-items-center">
-              <div className="col-2 d-flex align-items-center">
+              <div className="col-2">
                 <i class="fal fa-usd-square"></i>
               </div>
               <div className="col-5 mt-2 text-start">
@@ -64,7 +64,7 @@ function Depp() {
         </div>
 
         <div className="row mt-3">
-          <div className="col-lg-8 text-start ms-md-3 ms-2">
+          <div className="col-lg-8 text-start" >
             <h2 style={{color: "white"}}>Welcome To WOLF</h2>
             <p style={{color: "white"}}>
               From this console, you can view,manage,and launch RING-nodes.You
@@ -81,15 +81,15 @@ function Depp() {
           </div>
           </div>
           </div>
-         <div className="col-lg-3 ms-sm-4 ms-2 mb-2  mt-md-4">
-             <div className="row text-start d-flex align-items-center pt-1 ps-2">
+         <div className="col-lg-4 mb-2  mt-md-4 ">
+             <div className="row d-flex align-items-center pt-1 d-flex justify-content-center">
                  <div className="col-lg-12 col-11 colboxxes ps-sm-2 d-flex flex-row">
                  <div className="d-flex align-items-center"><i className="fal fa-info-square "></i>
                  </div>
                  <span id="depptext1" className="ms-2">Ensure are at https://app.ring.financial</span>
                  </div>
              </div>
-             <div className="row text-start d-flex align-items-center pt-1 ps-2">
+             <div className="row text-start d-flex align-items-center pt-1  d-flex justify-content-center">
                  <div className="col-lg-12 col-11 colboxxes ps-sm-2 d-flex flex-row">
                  <div className="d-flex align-items-center"><i className="fal fa-info-square "></i>
                  </div>
@@ -100,7 +100,7 @@ function Depp() {
         </div>
 
         <div className="row d-flex justify-content-center mt-3">
-            <div className="col-11 colboxes1">
+            <div className="col-md-12 col-11 colboxes1">
                 <div className="row text-center d-flex justify-content-center">
                     <div className="col-md-8 ">
                         <p className="dep">Create a RING.node from ONLY 10 <span style={{ color: "#0bff2b" }}>$WOLF</span > tokens to earn lifetime high-yield  <span style={{ color: "#0bff2b" }}>$WOLF</span > token rewards</p>

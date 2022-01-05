@@ -90,6 +90,10 @@ text-align: left;
     text-align: center;
     font-size: 18px;
 }
+.depprow{
+    display: flex;
+    justify-content: space-between;
+}
 @media(max-width: 770px){
     #depptext1{
         color: white;
@@ -104,7 +108,13 @@ text-align: left;
             -webkit-text-fill-color: transparent;
             font-size: 28px;
             }
+            .depprow{
+                display: flex;
+                justify-content: center;
+            }
+           
 }
+
 @media(max-width: 480px){
     #depptext1{
         color: white;
@@ -118,5 +128,9 @@ text-align: left;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 24px;
+            }
+            .depprow{
+                display: flex;
+                justify-content: center;
             }
 }

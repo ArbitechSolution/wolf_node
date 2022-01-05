@@ -8,9 +8,11 @@ import { FaWallet } from "react-icons/fa";
 // import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
 function DeppNavbar() {
   return (
-    <div>
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
       <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Container>
+        {/* <Container> */}
           <Navbar.Brand href="#home" id="wolfsss">
             <img
               alt=""
@@ -19,10 +21,6 @@ function DeppNavbar() {
             />{" "}
             WOLF NODES
           </Navbar.Brand>
-          {/* <Navbar.Brand href="#home">
-            <img src={logo} className=" navbarimage" />WOLF NODES
-            
-          </Navbar.Brand> */}
 
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -42,15 +40,12 @@ function DeppNavbar() {
               </button>
               </Nav.Link>
             </Nav>
-            {/* <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
-    </Nav> */}
+          
           </Navbar.Collapse>
-        </Container>
+        {/* </Container> */}
       </Navbar>
+      </div>
+      </div>
     </div>
   );
 }

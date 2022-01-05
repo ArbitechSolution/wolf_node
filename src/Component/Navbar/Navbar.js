@@ -29,7 +29,7 @@ function NavbarOne() {
           <Nav className="">
             <Link to="/presale" style={{textDecoration: "none"}}>
             <Nav.Link href="#deets" id="navitem">
-              <b>PRSALE</b>
+              <b>PRESALE</b>
             </Nav.Link>
             </Link>
             <Nav.Link id="navitem" href="#memes">
