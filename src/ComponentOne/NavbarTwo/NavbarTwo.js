@@ -23,11 +23,6 @@ function NavbarTwo() {
             id="responsive-navbar-nav"
             className="justify-content-end "
           >
-            {/* <Nav className="me-auto">
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              
-            </Nav> */}
             <Nav className="">
               <Link to="/" style={{textDecoration: "none"}}>
                 <Nav.Link href="#deets" id="navitem" className="mt-2">

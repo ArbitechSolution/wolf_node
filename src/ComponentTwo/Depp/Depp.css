@@ -4,17 +4,13 @@
     border-radius: 7px;
 }
 #reacticon{
-    /* background: rgb(2,0,36); */
-    background: #009FFF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #009FFF, #ec2F4B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,#009FFF , #ec2F4B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #009FFF; 
+    background: -webkit-linear-gradient(to right, #009FFF, #ec2F4B);  
+    background: linear-gradient(to right,#009FFF , #ec2F4B);
 }  
 .deppp{
     font-size: 15px;
-    /* line-height: 0; */
     color: white;
-    /* text-align:center; */
-    /* border: 2px solid red; */
 }  
 .deppp1{
     line-height: 0.7
@@ -99,8 +95,6 @@ text-align: left;
         color: white;
         font-size: 20px;
         text-align: left;
-        /* border: 2px solid red; */
-        /* margin-bottom: 10px; */
         }  
         .fa-info-square{
             background: -webkit-gradient(linear, left top, left bottom, from(#76c6ee), to(#003d92));
@@ -120,8 +114,6 @@ text-align: left;
         color: white;
         font-size: 14px;
         text-align: left;
-        /* border: 2px solid red; */
-        /* margin-bottom: 10px; */
         }  
         .fa-info-square{
             background: -webkit-gradient(linear, left top, left bottom, from(#76c6ee), to(#003d92));
